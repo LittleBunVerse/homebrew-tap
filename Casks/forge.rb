@@ -3,7 +3,7 @@ cask "forge" do
   name "forge"
   desc "终端启动器：快速切换项目并接管启动 AI 编程助手（Claude Code/Codex 等）"
   homepage "https://github.com/LittleBunVerse/forge"
-  version "2.1.0"
+  version "1.0.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "forge" do
   on_macos do
     on_intel do
       url "https://github.com/LittleBunVerse/forge/releases/download/v#{version}/forge_#{version}_darwin_amd64.tar.gz"
-      sha256 "c009702cb83cc9722149755c157d6545a6b667da7608a96381858ab28e6f11d0"
+      sha256 "d1407d7dfeb800fad4dacb34adaeb828e533eb2fa0a46472ea9b35ebd7b5406c"
     end
     on_arm do
       url "https://github.com/LittleBunVerse/forge/releases/download/v#{version}/forge_#{version}_darwin_arm64.tar.gz"
-      sha256 "cd0f44fa61660111a161e1f5c00f41649ca52d6780d7a5b15345675c620bf51d"
+      sha256 "ce2aa963f555d5a8e7773c859f90a6a3cfc046e5b73871e0bc41aa5b9ae1b64b"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/LittleBunVerse/forge/releases/download/v#{version}/forge_#{version}_linux_amd64.tar.gz"
-      sha256 "38c75338cb5055f8e7a6b54690898d66685d32242b809baa271255170d272f12"
+      sha256 "2e56232c5e01e8ec403cf9b06273e319c4a0aac23cb36e427a364c00986f5717"
     end
     on_arm do
       url "https://github.com/LittleBunVerse/forge/releases/download/v#{version}/forge_#{version}_linux_arm64.tar.gz"
-      sha256 "bf0949d501ebc67d687774dd9d3343de6a310172d98a39b2b1b873974076df4b"
+      sha256 "560cef8f11b1ddac263e039735004c9e02af2816f6298eaaba78f2e26174f77e"
     end
   end
 
