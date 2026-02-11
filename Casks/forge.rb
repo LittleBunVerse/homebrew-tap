@@ -14,22 +14,22 @@ cask "forge" do
   on_macos do
     on_intel do
       url "https://github.com/LittleBunVerse/forge/releases/download/v#{version}/forge_#{version}_darwin_amd64.tar.gz"
-      sha256 "0562605fa16802f637b657eaff11a6d4017c2a5168402351981cbaa782118f4b"
+      sha256 "a4825b3d8c75c0b442b66c19f20596c4c4288454089e63489eaa06c1b5d7cf80"
     end
     on_arm do
       url "https://github.com/LittleBunVerse/forge/releases/download/v#{version}/forge_#{version}_darwin_arm64.tar.gz"
-      sha256 "bfc32c7384479df97fc46b4f2e198b518c8cea82b55cef9ef28c7a9e0511794d"
+      sha256 "9cd7734cef7ce7581ee1a85c414fffa81b4e97ea257ecb2ec18e015c2b89fe08"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/LittleBunVerse/forge/releases/download/v#{version}/forge_#{version}_linux_amd64.tar.gz"
-      sha256 "7e01895b9c784b55903ea2a0b0c695719aa3f658273e3e42768c12899d584eb3"
+      sha256 "93d1d4e27833f3b97ea99bb972f41389e310d77e2e7c6b9932992950c4802530"
     end
     on_arm do
       url "https://github.com/LittleBunVerse/forge/releases/download/v#{version}/forge_#{version}_linux_arm64.tar.gz"
-      sha256 "f91c0f2d6d0d5d829b60446f2fad3636b0841916c20f38e295c837c6a96fd892"
+      sha256 "9ba9b0f39ad6fa2a440642a75f973d6f00b9efa1fee68974c861f29a36b214af"
     end
   end
 
